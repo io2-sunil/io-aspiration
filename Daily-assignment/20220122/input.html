@@ -6,25 +6,85 @@
         table,th,td{
             border:1px solid black; border-spacing:0px;
              width: 50%;
-             height:25%;
+             height:25%:
 
-        }
+        } 
+    
         #definition{
             width: 300px;
+            height: 50%;
         }
+
+        tr,th {
+            color:rgb(0, 47, 255); background-color: rgb(177, 172, 202);
+        } 
+        
+.root{
+    width:70%;
+    margin: auto;
+} 
+.table-main{ 
+    background-color: darkolivegreen;
+    height: 50%;
+    margin:auto;
+} 
+.submit-button{ 
+    text-align: right;
+    margin-right: 150px;
+}
+#my-text { 
+    background-color: darkslategrey;
+}
+ #my-car{
+     background-color:
+     forestgreen;
+    }
+     .radio{
+          background-color: greenyellow; 
+        }
+     #name{
+         background-color: indigo;
+     }
+     #password{
+         background-color: lawngreen;
+     }
+     #email{
+         background-color: lightgreen;
+     }
+     #phone{
+         background: lightseagreen;
+     }
+     #date{
+         background-color: maroon;
+     }
+     #car{
+         background-color: mediumslateblue;
+     }
+     #game{ 
+         background-color: mediumvioletred;
+     }
+     .tag{
+         height: 50px;
+         margin-left: 25%; 
+     }
+
     </style>
 </head>
 <body> 
-    <table>
+
+  <div class="root" >
+    <h1 class="tag"> TYPE OF TAG USE IN HTML</h1>
+
+    <table class="table-main">
     <tr>
-        <th>Sr.no</th>
-        <th>Type</th>
-        <th class="def" id="definition">Definition</th>
-        <th>name</th>
-        <th>Tags</th>
+        <th style="color: crimson;">Sr.no</th>
+        <th style="color: crimson;">Type</th>
+        <th class="def" id="definition" style="color: crimson;">Definition</th>
+        <th style="color: crimson;">name</th>
+        <th style="color: crimson;">Tags</th>
     </tr>
     <tr>
-        <td  >1</td>
+        <td style="color: crimson;" >1</td>
         <td  > input</td>
         <td id="definition" >
             <div id="definition">input The Input (Form Input) element. The<b>input</b>HTML element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. 
@@ -39,97 +99,99 @@
         </td>   
         <td >
             <div>
-                <input type="text" placeholder="Enter Your Name" />
+                <input type="text" id="name" placeholder="Enter Your Name" />
             </div>
-            <div>
-                <input type="email" placeholder="Enter Your email" />
-            </div>            <div>
-                <input type="password" placeholder="Enter Your Password" />
-            </div>            <div>
-                <input type="number" placeholder="Enter Your Phone" />
+            <div >
+                <input type="email" id="email" placeholder="Enter Your email" />
+            </div >            <div >
+                <input type="password" id="password" placeholder="Enter Your Password" />
+            </div>            <div >
+                <input type="number" id="phone" placeholder="Enter Your Phone" />
             </div>
-            <div>
-                <input type="date" name="" id="">
+            <div >
+                <input type="date" name="" id="date">
             </div>
         </td>
     </tr>
     <tr>
-        <td >2</td>
+        <td style="color: crimson;" >2</td>
         <td> input radio</td>
         <td >The HTML Radio button is used to define the small circles, which are highlighted when selected. It is a form element which allows the users to select only one option from the given set of options.</td>
       
         <td >Gender</td>
-        <td ><div> 
+        <td ><div class="radio"> 
            Male <input type="radio" name="my gender"><br> Female <input type="radio" name="my gender"><br> other <input type="radio" name="my gender">
         </div></td>
 
     </tr>
     <tr>
-        <td>3</td>
+        <td style="color: crimson;">3</td>
 
         <td>Input checkbox </td>
         <td >The HTML checkbox tag is used to define the square boxes. It is a form element which allows users to select one or more options from the given options.
         </td>
-        <td >hobies</td>
+        <td >Hobbies</td>
         <td ><div>
             cricket <input type="checkbox" name="cricket"> <br> chess <input type="checkbox" name="chess"><br> football <input type="checkbox" name="football">
         </div></td>
 
     </tr>
     <tr>
-        <td>4</td>
-        <td >input Dropdwon</td>
+        <td style="color: crimson;">4</td>
+        <td >input Dropdown</td>
         <td >HTML — A drop-down list (abbreviated drop-down, or DDL; also known as a drop-down menu, drop menu, pull-down list, picklist) is a graphical control element, </td>
-        <td > Dropdwon</td>
+        <td > Dropdown</td>
         <td><div> 
             <label for="game">game</label>
-            <select name="my game" id="game">
+            <select name="my-car" id="game">
                 <option value="cricket">cricket</option>
                 <option value="chess">chess</option>
                 <option value="football">football</option>
             </select><br>
             <label for="car">car</label>
-            <select name="my car" id="car">
-                <option value="farrari">FARRARI</option>
+            <select name="-my-car" id="car">
+                <option value="ferrari">EARRARI</option>
                 <option value="thar">THAR</option>
                 <option value="bmw">BMW</option>
             </select>
         </div></td>
     </tr>
     <tr>
-        <td>5</td>
+        <td style="color: crimson;">5</td>
         <td>input text </td>
         <td>The textarea tag defines a multi-line text input control. The textarea element is often used in a form, to collect user inputs like comments or reviews. A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
         </td>
         <td>text</td>
         <td> 
             <div>
-                <textarea name="mytext" id="my text" cols="15" rows="5"></textarea>
+                <textarea name="mytext" id="my-text" cols="15" rows="5"></textarea>
 
         </div></td>
 
     </tr>
     <tr>
-        <td>6</td>
+        <td style="color: crimson;">6</td>
         <td>input img</td>
         <td>The img tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. The img tag creates a holding space for the referenced image.
         </td>
         <td>img</td>
 
-        <td><img src="cute cat.jpg.jpg" alt="cute" width=150" height="100"> </td>
+        <td><img src="hrithik-roshan-72a.jpg.jpg" alt="hrithik" width=150" height="100"> </td>
     </tr>
     <tr>
-        <td>7</td>
+        <td style="color: crimson;">7</td>
         <td>input link</td>
         <td>The link tag defines the relationship between the current document and an external resource. The link tag is most often used to link to external style sheets or to add a favicon to your website. The link element is an empty element, it contains attributes only.
         </td>
         <td>link</td>
-        <td> <a href="https://google.com">click here</a></td> <br>
+        <td> <a href="https://google.com">click here</a></td>
         
 
     </tr>
+</div> 
     
 </table>
-<div><input type="submit" name="submit now"> 
+<div class="submit-button">
+    <input type="submit" name="submit now"> 
 </div>
 </body>
