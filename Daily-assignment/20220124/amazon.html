@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>amazon</title>
+    <style>
+      .container{
+        height: 500px;
+        width: 29%;
+        margin:auto;
+        
+        }
+      .main-div {
+        border: solid 1px #DDDDDD  ;
+        border-radius: 1%;
+        text-align:justify 1%;
+        padding: 1px;
+      }
+      .root{
+        font-size: xx-large;
+        padding-left: 3%;
+      }
+      .name{
+        font-size:small;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+      }
+      #mobilenumber{
+        width: 65%;
+        height: 25px;
+
+      }
+      .mobile{
+        font-size: small;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      }
+      .email{
+        font-size: small;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      #root{
+        width:80%;
+        height: 25px;
+        margin-right: 2%;
+       }
+       .password{
+         font-size: small;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       #root-2{
+         width: 80%;
+         height: 25px;
+       }
+       .again{
+         font-size:small;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+       #again-2{
+        width: 80%;
+        height: 25px;
+          }
+          .button-1{
+            width: 80%;
+            height: 30px;
+            background-color:  #F3CE74;
+            border: solid 1px #a38027;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          }
+          .amazon{
+            position: relative;
+  left: 50px;
+             }
+             #yourname{
+              width: 80%;
+              height: 25px;
+        
+             }
+             .child{
+               margin: auto;
+               padding: 4%;
+               margin: bottom 6px;
+             }
+            .button-1:hover{
+              background-color: #f5c857 ;
+            }
+          
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+    <div class="amazon">
+    <img src="amazon-symbol.png" alt="amazon" width="200px"   >
+  </div>
+    <div class="main-div ">
+      <div class="root">
+      <p>Create Account</p> 
+    </div>
+    <div class="child">
+      <label for="yourname" class="name">Your name </label>
+      <div>
+      <input type="text" id="yourname" name="yourname" size="40" style="height: 20px;"/>
+    </div>
+    <br>
+      <label for=" mobilenumber" class="mobile">Mobile Number </label>
+      <br >
+      <button onclick="myFunction()" style="height:5%;">In +91</button>
+
+      <input
+        type="number"
+        id="mobilenumber"
+        name="mobilenumber"
+        placeholder="Mobile Number"
+        
+      />
+
+      <br>
+      <br>
+      <label for="email" class="email">Email (optional)</label>
+    
+      <br>
+      <input type="text" id="root" name="email" />
+    <div>
+      <br>
+      <label for="password" class="password">Password</label>
+    </div>
+      
+      <input
+        type="password"
+        id="root-2"
+        name="password"
+        placeholder="At least 6 characters"
+      />
+      <p>Passwords must be at least 6 characters.</p>
+      <label for=" text" class="again"> Password again</label>
+      <div>
+      <input type="password" id="again-2" name="password again"/>
+    </div>
+      <p>
+        We will send you a text to verify your phone. Message and Data rates may
+        apply.
+      </p>
+      <button type="continue" value="continue" class="button-1">Continue</button>
+      <p>
+        Already have an account?
+        <a href="https://www.amazon.com "> sing in ►</a>
+        <p> Buying for work?
+        </p>
+        <a href="https://www.amazon.com ">  Create a free business account ►
+        </a>
+
+
+        
+      </p>  
+    </div>
+    </div>
+  </div>
+  </body>
+</html>
