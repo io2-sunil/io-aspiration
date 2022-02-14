@@ -15,6 +15,10 @@
   border-radius: 22px;
   height: 46px;
   width: 46px;
+  border: none;
+}
+.divimg:hover {
+  background-color: #f1f3f4;
 }
 .img2 {
   position: relative;
@@ -37,15 +41,16 @@
   width: 1000px;
   position: relative;
   left: 100%;
-  bottom: 243px;
+  bottom: 465px;
 }
 .maindiv5 {
+  padding: 20px;
   border: solid 1px black;
-  height: 500px;
-  width: 13%;
+  height: 464px;
+  width: 8%;
   position: relative;
   left: 100%;
-  bottom: 1px;
+  bottom: 679px;
 }
 .search {
   width: 48%;
@@ -103,6 +108,100 @@
   right: 141px;
   top: 8px;
 }
-.code {
-  padding: 10px;
+.child {
+  position: relative;
+  left: 17px;
+}
+.child1 {
+  position: relative;
+  left: 300px;
+  bottom: 38px;
+}
+.child2 {
+  position: relative;
+  left: 600px;
+  bottom: 70px;
+}
+.child3 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child4 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child5 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child6 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child7 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child8 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child9 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child10 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child11 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child12 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child13 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child14 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child15 {
+  border: solid 1px;
+  padding: 5px;
+  position: relative;
+  bottom: 74px;
+}
+.child16 {
+  position: relative;
+  bottom: 220px;
+  left: 96px;
 }
