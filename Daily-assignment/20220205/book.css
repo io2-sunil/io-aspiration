@@ -1,0 +1,137 @@
+.maindiv {
+  margin: 0px;
+  padding: 0px;
+  height: 620px;
+  width: 100%;
+}
+.img {
+  border: solid 1px;
+  height: 100px;
+  width: 100px;
+  border-radius: 80px;
+  border: none;
+  position: relative;
+  left: 100px;
+  top: 10px;
+}
+.root {
+  border-bottom-left-radius: 42px;
+  border: solid 1px;
+  height: 54px;
+  width: 244px;
+  background-color: rgb(218, 28, 28);
+  position: relative;
+  left: 371px;
+  top: 117px;
+  border-top-left-radius: 48px;
+  border: none;
+  transform: rotate(51deg);
+}
+.root1 {
+  border-bottom-left-radius: 42px;
+  border: solid 1px;
+  height: 54px;
+  width: 300px;
+  background-color: rgb(40, 179, 109);
+  position: relative;
+  left: 280px;
+  top: 118px;
+  border-top-left-radius: 48px;
+  border: none;
+  transform: rotate(-33deg);
+}
+.root2 {
+  border-bottom-left-radius: 42px;
+  border: solid 1px;
+  height: 54px;
+  width: 400px;
+  background-color: rgb(133, 59, 194);
+  position: relative;
+  left: 300px;
+  top: 164px;
+  border-top-left-radius: 48px;
+  border: none;
+  transform: rotate(-30deg);
+}
+.img1 {
+  position: relative;
+  left: 151px;
+  bottom: -338px;
+  transform: rotate(55deg);
+}
+.maindiv1 {
+  border: solid 1px;
+  height: 455px;
+  width: 452px;
+  background-color: blue;
+  position: relative;
+  bottom: 612px;
+  left: 1161px;
+  transform: rotate(50deg);
+}
+.img2 {
+  position: relative;
+  left: 572px;
+  bottom: 777px;
+  transform: rotate(51deg);
+}
+.root3 {
+  height: 54px;
+  width: 379px;
+  background-color: rgb(218, 28, 28);
+  position: relative;
+  left: 738px;
+  bottom: 951px;
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+  border-bottom-right-radius: 48px;
+  border: none;
+  transform: rotate(51deg);
+}
+.root4 {
+  height: 54px;
+  width: 400px;
+  background-color: rgb(43, 180, 43);
+  position: relative;
+  left: 599px;
+  bottom: 1033px;
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+  border-bottom-right-radius: 48px;
+  border: none;
+  transform: rotate(51deg);
+}
+.root5 {
+  height: 54px;
+  width: 200px;
+  background-color: rgb(36, 210, 216);
+  position: relative;
+  left: 513px;
+  bottom: 1099px;
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+  border-bottom-right-radius: 48px;
+  border: none;
+  transform: rotate(153deg);
+}
+.img3 {
+  position: relative;
+  left: 378px;
+  bottom: 877px;
+  transform: rotate(55deg);
+}
+.tag {
+  border: solid;
+  height: 53px;
+  width: 138px;
+  text-align: center;
+  border-radius: 50px;
+  position: relative;
+  bottom: 231%;
+  left: 1099px;
+  color: ghostwhite;
+}
+.logo {
+  position: relative;
+  left: 17%;
+}
