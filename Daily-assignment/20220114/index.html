@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>UL and OL tags</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: o;
+      }
+      .root {
+        height: 100px;
+        width: 250px;
+        text-align: center;
+        position: relative;
+        left: 500px;
+        animation-name: pin;
+        animation-duration: 4s;
+        animation-iteration-count: 6;
+      }
+      @keyframes pin {
+        from {
+          width: 10px;
+        }
+        to {
+          width: 500px;
+        }
+      }
+      .root1 {
+        border: solid 2px;
+        margin: 70px;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        animation-name: code;
+        animation-duration: 5s;
+      }
+      .root2 {
+        border: solid 2px;
+        margin: 70px;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        position: relative;
+        bottom: 373px;
+        left: 423px;
+        animation-name: code;
+        animation-duration: 7s;
+      }
+      .root3 {
+        border: solid 2px;
+        margin: 70px;
+        height: 300px;
+        width: 250px;
+        text-align: center;
+        position: relative;
+        bottom: 745px;
+        left: 800px;
+        animation-name: code;
+        animation-duration: 5s;
+      }
+      @keyframes code {
+        from {
+          background-color: rgb(113, 236, 129);
+        }
+
+        to {
+          background-color: rgb(120, 120, 192);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="root">
+        <h2>
+          <span style="color: rgb(179, 19, 19)"
+            >I'm learning Listing and internal styling
+          </span>
+        </h2>
+      </div>
+
+      <div class="root1">
+        <h2><span style="color: blue">CODING SUBJECT </span></h2>
+        <br />
+        <ul style="color: rgb(5, 41, 41)">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+          <li>PYTHON</li>
+          <li>C program</li>
+          <li>c++</li>
+          <li>PHP</li>
+        </ul>
+      </div>
+      <div class="root2">
+        <h2><span style="color: red">The Avengers </span></h2>
+        <br />
+        <ol style="color: rgb(47, 90, 5)">
+          <li>Iron Man</li>
+          <li>Thor</li>
+          <li>Captain America</li>
+          <li>Hulk</li>
+          <li>Natasha Romanoff</li>
+          <li>Clint Barton</li>
+          <li>Black Panther</li>
+        </ol>
+      </div>
+      <div class="root3">
+        <h2><span style="color: rgb(104, 12, 50)">SUPER HERO</span></h2>
+        <br />
+        <ol style="list-style-type: square">
+          <span style="color: rgb(68, 21, 4)">
+            <li>Shaktimaan</li>
+            <li>Spuerman</li>
+            <li>Batman</li>
+            <li>Minnal Murali</li>
+            <li>Krrish</li>
+            <li>Spider-Man</li>
+            <li>Wonder Woman</li>
+          </span>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
